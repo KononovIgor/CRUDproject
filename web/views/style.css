@@ -1,0 +1,95 @@
+body {
+    background: beige;
+    font-size: 14pt;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+#wrapper {
+    margin: 20px auto;
+    width: 1000px;
+}
+
+#header {
+    background: darkgoldenrod;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 10px midnightblue;
+    color: azure;
+    height: 80px;
+    text-align: center;
+}
+
+#header p {
+    font-size: 24pt;
+    padding: 20px;
+}
+
+#menu {
+    background-color: honeydew;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 10px midnightblue;
+    float: left;
+    font-size: 26px;
+    height: 400px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 5px;
+}
+
+#menu a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: brown;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#mainBlock {
+    padding: 10px;
+}
+
+#mainBlock p {
+    font-size: 24px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#mainBlock a {
+    color: darkgoldenrod;
+}
+
+#mainBlock a:hover {
+    color: brown;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#mainBlock input {
+    background: floralwhite;
+    border-radius: 15px;
+    box-shadow: 0 0 10px midnightblue;
+    line-height: 30px;
+    padding: 5px;
+}
+
+#mainBlock table {
+    border: 1px black solid;
+    font-size: 20px;
+    width: 500px;
+}
+
+#mainBlock table td {
+    border: 1px black solid;
+}
